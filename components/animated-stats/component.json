@@ -1,0 +1,33 @@
+{
+  "name": "AnimatedStats",
+  "slug": "animated-stats",
+  "type": "section",
+  "category": "data",
+  "description": "A stat/metric row for Framer with count-up number animation, four entrance styles (blur, slide, fade, scale), and 1x4 / 2x2 / 4x1 grid layouts. Numbers animate from 0 to their target value with easeOutExpo when the section scrolls into view.",
+  "whenToUse": "Use for homepage stat bars, dashboard summaries, or any 'X users, Y% satisfaction' style metric row that should feel alive rather than static text.",
+  "framework": "framer",
+  "language": "typescript",
+  "dependencies": ["framer"],
+  "files": ["components/animated-stats/AnimatedStats.tsx"],
+  "props": {
+    "stats": "StatItem[] — { number, suffix, label }, up to 6 items",
+    "theme": "\"dark\" | \"light\"",
+    "animationType": "\"blur\" | \"slide\" | \"fade\" | \"scale\"",
+    "layout": "\"1x4\" | \"2x2\" | \"4x1\"",
+    "countDuration": "number (ms) — duration of the count-up animation",
+    "staggerDelay": "number (ms) — delay between each stat's entrance",
+    "replayOnReenter": "boolean — replay the animation every time it re-enters the viewport",
+    "demoMode": "boolean — shows a live control panel below the component for presentations"
+  },
+  "designTokens": {
+    "theme": "paper/ink/glass",
+    "note": "Ships with its own dark/light color pairs (independent of the Frameze site theme system) since it's meant to drop into any project."
+  },
+  "frameze": {
+    "id": "animated-stats-pro",
+    "marketplaceName": "Animated Stats Pro",
+    "price": "Free",
+    "previewUrl": "https://animatedstatspro.framer.website/",
+    "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/4b6a7bd2-de29-4650-b7c9-382b5b2dcda6"
+  }
+}

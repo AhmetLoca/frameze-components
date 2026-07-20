@@ -1,0 +1,22 @@
+{
+  "$schema": "https://frameze.com/registry-schema.json",
+  "name": "frameze-components",
+  "description": "Open-source, machine-readable registry of Frameze's Framer components. Each entry points to a component.json manifest with props, dependencies, and marketplace metadata.",
+  "homepage": "https://frameze.com",
+  "items": [
+    {
+      "name": "AnimatedStats",
+      "slug": "animated-stats",
+      "manifest": "components/animated-stats/component.json",
+      "file": "components/animated-stats/AnimatedStats.tsx",
+      "category": "data"
+    },
+    {
+      "name": "ParticleTextProFX",
+      "slug": "particle-text-pro",
+      "manifest": "components/particle-text-pro/component.json",
+      "file": "components/particle-text-pro/ParticleTextPro.tsx",
+      "category": "typography"
+    }
+  ]
+}

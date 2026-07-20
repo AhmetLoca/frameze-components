@@ -1,0 +1,25 @@
+{
+  "name": "Frameze theme system",
+  "description": "The paper/ink/glass vocabulary used across Frameze components and marketing site copy. Not every component uses all three — check each component's designTokens field.",
+  "themes": {
+    "paper": {
+      "description": "Light theme. Warm off-white background, near-black text.",
+      "background": "#f4f3f1",
+      "text": "#0d0d0d"
+    },
+    "ink": {
+      "description": "The dark/foreground color token itself — used as the accent/text color in light mode, and as the background in dark mode contexts (naming follows the Frameze site's own --ink-rgb / --paper-rgb CSS variable pair, which swap under [data-theme=\"dark\"]).",
+      "value": "#0d0d0d"
+    },
+    "glass": {
+      "description": "Dark theme with frosted/blurred surfaces. Near-black background, translucent white panels with backdrop-blur.",
+      "background": "#0a0a0a",
+      "surface": "rgba(255,255,255,0.06)",
+      "border": "rgba(255,255,255,0.08)"
+    }
+  },
+  "motion": {
+    "signatureEasing": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "note": "Used for nearly all transitions/animations across Frameze components and the marketing site — a smooth ease-out with no overshoot."
+  }
+}

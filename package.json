@@ -1,0 +1,20 @@
+{
+  "name": "frameze-components",
+  "version": "0.1.0",
+  "description": "Open-source, machine-readable registry of Frameze's Framer components.",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://frameze.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/REPLACE_ME/frameze-components"
+  },
+  "keywords": [
+    "framer",
+    "framer-components",
+    "react",
+    "component-registry",
+    "mcp",
+    "ai-agent-tools"
+  ]
+}

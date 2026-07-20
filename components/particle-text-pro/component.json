@@ -1,0 +1,35 @@
+{
+  "name": "ParticleTextProFX",
+  "slug": "particle-text-pro",
+  "type": "text-effect",
+  "category": "typography",
+  "description": "Canvas-based particle text component for Framer. Samples any text into thousands of animated dots at 60fps, with repel/attract/vortex cursor interaction, scatter/fall/rise intro animations, click-burst, gradient fills, and velocity-based color shifting.",
+  "whenToUse": "Use for a hero headline, coming-soon page title, or any short text that should feel physical and interactive rather than static — the text is literally cursor-reactive.",
+  "framework": "framer",
+  "language": "typescript",
+  "dependencies": ["framer"],
+  "files": ["components/particle-text-pro/ParticleTextPro.tsx"],
+  "props": {
+    "text": "string — the text to render as particles",
+    "interactionMode": "\"repel\" | \"attract\" | \"vortex\" | \"none\"",
+    "introStyle": "\"scatter\" | \"fall\" | \"rise\"",
+    "autoFit": "boolean — scales font size to fill the container width",
+    "particleColor": "Color",
+    "useGradient": "boolean — gradient fill between particleColor and gradientColorTo",
+    "velocityColor": "boolean — particles shift color as they speed up",
+    "clickBurst": "boolean — explosive scatter on click/tap, auto-returns",
+    "idleOscillation": "boolean — subtle always-alive breathing motion when idle",
+    "demoMode": "boolean — shows a live control panel for presentations"
+  },
+  "designTokens": {
+    "theme": "paper/ink/glass",
+    "note": "Ships with its own color props (particleColor/backgroundColor) rather than reading site theme tokens, since it's a self-contained canvas effect."
+  },
+  "frameze": {
+    "id": "particle-text-pro-fx",
+    "marketplaceName": "Particle Text Pro FX",
+    "price": "$8",
+    "previewUrl": "https://particletextprofx.framer.website/",
+    "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/bcb1ae9f-10c2-4f10-ab58-fe298acc40e9"
+  }
+}
