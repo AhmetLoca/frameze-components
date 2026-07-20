@@ -14,17 +14,32 @@ It doesn't bundle any component data itself: every call fetches live from `raw.g
 
 ## Install
 
+Published on npm as [`frameze-mcp`](https://www.npmjs.com/package/frameze-mcp).
+
 ### Claude Code
 
 ```
 claude mcp add frameze -- npx -y frameze-mcp
 ```
 
-(Once published to npm — see below. Until then, use the local path method.)
+### Claude Desktop / Cursor / other MCP clients
 
-### Claude Code / Claude Desktop / Cursor — from source
+Add to your MCP config:
 
-Clone this repo, build the server, then point your MCP config at the built file:
+```json
+{
+  "mcpServers": {
+    "frameze": {
+      "command": "npx",
+      "args": ["-y", "frameze-mcp"]
+    }
+  }
+}
+```
+
+Restart your tool. Ask it something like *"find a Frameze component for a pricing section"* — it should call `search_components` on its own.
+
+### From source (for development)
 
 ```
 git clone https://github.com/AhmetLoca/frameze-components.git
@@ -33,7 +48,7 @@ npm install
 npm run build
 ```
 
-Add to your MCP config (`~/.claude/mcp.json` for Claude Code, or the equivalent for your tool):
+Then point your MCP config at the built file instead of `npx`:
 
 ```json
 {
@@ -45,8 +60,6 @@ Add to your MCP config (`~/.claude/mcp.json` for Claude Code, or the equivalent 
   }
 }
 ```
-
-Restart your tool. Ask it something like *"find a Frameze component for a pricing section"* — it should call `search_components` on its own.
 
 ## Development
 

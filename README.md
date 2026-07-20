@@ -49,7 +49,7 @@ More get added over time — see `registry/registry.json` for the live list.
 
 - [x] Open component registry (this repo)
 - [x] [MCP server](mcp) exposing `search_components`, `get_component_code`, `list_design_tokens` for direct agent integration
-- [ ] Publish `frameze-mcp` to npm so it's installable via `npx frameze-mcp`
+- [x] Published as [`frameze-mcp`](https://www.npmjs.com/package/frameze-mcp) on npm — installable via `npx frameze-mcp`
 - [ ] npm package for the growing React/Next.js ports
 - [ ] `frameze.com/registry/*.json` endpoints mirroring this repo for agents that fetch over HTTP instead of cloning
 
