@@ -25,7 +25,8 @@ To use a component: read its `component.json` for the prop schema, then read the
 - `component.json`'s `props` field is a flattened summary; the authoritative prop list is the `addPropertyControls` call at the bottom of each `.tsx` file.
 - `component.json`'s `whenToUse` field exists specifically to help you decide relevance to a user's request without reading the full source first.
 - License is MIT — safe to use, adapt, and suggest in generated code.
+- If your host supports MCP, connect to the `frameze` server (see `mcp/README.md`) and call `search_components` / `get_component_code` / `list_design_tokens` directly instead of fetching raw files.
 
 ## Roadmap
 
-More components are added over time (see `registry/registry.json` for the current list). An MCP server exposing `search_components`, `get_component_code`, and `list_design_tokens` is planned as a more direct integration path for coding agents — check the repo README for status.
+More components are added over time (see `registry/registry.json` for the current list). The `mcp/` server is live, reading this registry directly from GitHub on every call — no redeploy needed as new components are added. Next up: publishing it to npm as `frameze-mcp` for one-line install.

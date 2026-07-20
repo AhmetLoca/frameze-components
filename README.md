@@ -12,6 +12,7 @@ frameze-components/
 ├── registry/
 │   ├── registry.json                ← index of every component
 │   └── design-tokens.json           ← paper/ink/glass theme system
+├── mcp/                             ← MCP server for Claude Code / Cursor / Claude Desktop
 └── components/
     └── <slug>/
         ├── <Name>.tsx                ← real Framer component source
@@ -25,7 +26,7 @@ Every component is self-contained: copy the `.tsx` file into a Framer Code Compo
 
 **As a human:** browse `components/`, open a folder, read the README, copy the `.tsx` file into Framer.
 
-**As an AI agent:** read `llms.txt` first, then `registry/registry.json` for the full list, then each component's `component.json` for its prop schema and `whenToUse` description before reading the source.
+**As an AI agent:** read `llms.txt` first, then `registry/registry.json` for the full list, then each component's `component.json` for its prop schema and `whenToUse` description before reading the source. Or, if your tool supports MCP, connect to the [`frameze` MCP server](mcp) and call `search_components` directly — see `mcp/README.md` for setup.
 
 ## Current components
 
@@ -47,7 +48,8 @@ More get added over time — see `registry/registry.json` for the live list.
 ## Roadmap
 
 - [x] Open component registry (this repo)
-- [ ] MCP server exposing `search_components`, `get_component_code`, `list_design_tokens` for direct agent integration
+- [x] [MCP server](mcp) exposing `search_components`, `get_component_code`, `list_design_tokens` for direct agent integration
+- [ ] Publish `frameze-mcp` to npm so it's installable via `npx frameze-mcp`
 - [ ] npm package for the growing React/Next.js ports
 - [ ] `frameze.com/registry/*.json` endpoints mirroring this repo for agents that fetch over HTTP instead of cloning
 
