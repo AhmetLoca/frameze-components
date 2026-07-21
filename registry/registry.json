@@ -1,7 +1,7 @@
 {
   "$schema": "https://frameze.com/registry-schema.json",
   "name": "frameze-components",
-  "description": "Open-source, machine-readable registry of Frameze's Framer components. Each entry points to a component.json manifest with props, dependencies, and marketplace metadata.",
+  "description": "Machine-readable registry of Frameze's Framer components, organized by category. Two entries (animated-stats, particle-text-pro) include full open-source .tsx code as a working demo of the format; every other entry is searchable metadata (name, category, description, price, preview and buy links) pointing back to the live Frameze marketplace at frameze.com.",
   "homepage": "https://frameze.com",
   "items": [
     {
@@ -17,6 +17,1059 @@
       "manifest": "components/particle-text-pro/component.json",
       "file": "components/particle-text-pro/ParticleTextPro.tsx",
       "category": "typography"
+    },
+    {
+      "name": "Feature Grid Mosaic",
+      "slug": "feature-grid-mosaic",
+      "category": "Feature",
+      "description": "Feature Grid Mosaic is a theme-aware 8-cell mosaic feature grid for Framer. Each image cell reveals animated titles, descriptions, tag badges and a frosted glass CTA button on hover \u2014 all with precisely timed staggered transitions. Switch between Paper and Glass themes, mix image and text cards in any order, and drop it into any project with zero setup.",
+      "price": "$12",
+      "previewUrl": "https://featuregridmosaic.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ad5179f0-93d7-4bac-badb-83cc92deb545"
+    },
+    {
+      "name": "Feature Showcase",
+      "slug": "feature-showcase",
+      "category": "Feature",
+      "description": "Feature Showcase is a responsive split feature section for Framer. A fixed photo panel sits alongside a clean 2\u00d72 feature grid, with Paper and Glass theme support, custom accent colors, and editable icons. Works out of the box \u2014 no setup needed.",
+      "price": "$12",
+      "previewUrl": "https://featureshowcase.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/5a8511f9-4fc0-4e40-b071-6ecffcfe233e"
+    },
+    {
+      "name": "Process Section",
+      "slug": "process-section",
+      "category": "Feature",
+      "description": "ProcessSection is an animated, step-by-step process component for Framer. A horizontal tab strip with auto-advancing progress bars, like a stories UI, sits above a spotlight stage that reveals one step at a time behind a giant ghost numeral. Fully responsive, keyboard accessible, and customizable to every font, color, and label.",
+      "price": "$12",
+      "previewUrl": "https://processsection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/b8c9f16a-a5a0-4aaa-b656-de91af0ad617"
+    },
+    {
+      "name": "Process Steps Section",
+      "slug": "process-steps-section",
+      "category": "Feature",
+      "description": "Process Steps Pro is an animated process-steps section for Framer. Numbered steps expand accordion-style with a live connector rail that lights up as you progress, ghost-reveal titles, and a two-column eyebrow + heading header. Fully responsive with built-in SEO markup and accessible keyboard navigation \u2014 perfect for agencies, SaaS products, consultancies and service-based businesses that need to explain a process clearly.",
+      "price": "$8",
+      "previewUrl": "https://processstepssection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/805ab581-f0c3-42c3-847b-44ee25bc7fcd"
+    },
+    {
+      "name": "Social Reels Grid",
+      "slug": "social-reels-grid",
+      "category": "Feature",
+      "description": "Social Reels Grid is a responsive vertical video showcase for Framer, styled after the TikTok and Instagram Reels feeds. Videos never autoplay on load \u2014 visitors trigger playback by hover or click, keeping pages fast and bandwidth-friendly. Each card includes mute control, a play/pause indicator, an optional username, and a link to the original post. Ships with Paper, Glass and Custom themes plus a live toggle, and a Demo Mode panel for adjusting layout on the fly.",
+      "price": "$12",
+      "previewUrl": "https://socialreelsgrid.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/0d9d9ee2-3c4b-48aa-bf8e-a85be1f08249"
+    },
+    {
+      "name": "TechStack Section",
+      "slug": "techstack-section",
+      "category": "Feature",
+      "description": "TechStack Pro is a numbered tools & integrations list for Framer. Each row keeps its logo badge visible and expands on click to reveal a description with an optional outbound link. Fully responsive with independent font controls for every text element, and static-render safe for smooth canvas performance. Built-in schema.org markup helps search engines and AI crawlers understand your tech stack.",
+      "price": "$9",
+      "previewUrl": "https://techstacksection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/23d31d6f-27ba-49e3-b652-b6e44a747a53"
+    },
+    {
+      "name": "Testimonial Slide Pro",
+      "slug": "testimonial-slide-pro",
+      "category": "Testimonial",
+      "description": "Testimonial Slide Pro is a full-bleed, background-image testimonial slider for Framer. Each slide fills the entire canvas with a photo, letting the review breathe against real imagery instead of a cramped card. What makes it different is the editorial presentation \u2014 a bold serif quote, a star rating, and a name/role byline sit over a full-screen photo with a smooth crossfade (or slide, iris, bars, dissolve) transition between reviews, giving testimonials the weight of a magazine spread rather than a generic carousel.",
+      "price": "$8",
+      "previewUrl": "https://testimonialslidepro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/52d2554e-1c54-4296-8746-d2c86953642b"
+    },
+    {
+      "name": "Testimonial Studio",
+      "slug": "testimonial-studio",
+      "category": "Testimonial",
+      "description": "Testimonial Studio is a fully-featured testimonial component built for Framer. It combines editorial typography, animated image panels, and cinematic slide transitions to help you build social proof sections that actually convert. Each slide supports a quote, author name, role, photo, and star rating, with prev/next buttons, dot indicators, keyboard arrow keys, and touch swipe built in. Transitions (Fade, Blur, Float), auto-play interval, counter visibility, star ratings, border radius, image inset, font families, and every color token are fully customizable via Framer's property controls \u2014 no code needed. A built-in Demo Mode panel lets you toggle themes and effects live on the canvas, making it easy to present options to clients or record preview videos. Works at any size, tested across mobile, tablet, and desktop breakpoints.",
+      "price": "$9",
+      "previewUrl": "https://testimonialstudio.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ab71f98b-401f-4cb4-b78a-6110f91cde6b"
+    },
+    {
+      "name": "Testimonials Video",
+      "slug": "testimonials-video",
+      "category": "Testimonial",
+      "description": "Video Testimonials is a glass-style video card gallery for Framer. Each card expands in place into a liquid-glass video player with custom controls \u2014 supports YouTube, Vimeo and MP4. Fully responsive with touch support, animated loading states and brand logos. Perfect for SaaS, agencies and e-commerce sites.",
+      "price": "$12",
+      "previewUrl": "https://videotestimonials.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/fa173cba-1cc6-453a-9920-192f9d49ed49"
+    },
+    {
+      "name": "Comparison Table XL",
+      "slug": "comparison-table-xl",
+      "category": "Pricing",
+      "description": "Comparison Table is a theme-aware feature comparison matrix for Framer. Compare pricing plans side by side with clean check/X indicators, value labels like \"Unlimited\" or \"200GB\", and grouped feature categories. Supports paper and glass themes, a sticky plan header, highlighted popular column, per-row tooltips and CTA buttons. Fully responsive \u2014 auto-collapses to a stacked card layout on mobile. Built for SaaS landing pages, subscription services and product feature overviews where a clear plan-vs-feature matrix drives conversion.",
+      "price": "$8",
+      "previewUrl": "https://comparisontable.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/96017bfd-4937-41c0-b46f-d5e735cf2e8c"
+    },
+    {
+      "name": "Footer Section 2",
+      "slug": "footer-section-2",
+      "category": "Footer",
+      "description": "FooterSection is a polished, animation-ready footer for Framer sites, built for studios, SaaS products, and portfolios that want their footer to feel as intentional as their hero. Columns and links reveal with a subtle staggered fade as the section enters the viewport, while social icons and the CTA area get a soft hover glow that ties back to the rest of your page's motion language. Fully responsive out of the box \u2014 columns collapse into a clean stacked layout on mobile with no extra setup. Every color, spacing, radius, and font is exposed through property controls, so it drops into any design system in minutes. Built with the same performance-safe foundation as the rest of the section family: canvas-safe rendering, optimized resize handling, and accessible markup throughout.",
+      "price": "$8",
+      "previewUrl": "https://footersection2.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/5d1bfb8a-007a-4cf1-8f87-f3429ab524bb"
+    },
+    {
+      "name": "Footer Section 3",
+      "slug": "footer-section-3",
+      "category": "Footer",
+      "description": "FooterSection3 is a minimal, theme-aware footer for Framer. No logo, no social icons, no clutter \u2014 just clean link columns and a simple copyright bar, built for sites where the footer should stay quiet and out of the way. Up to 4 configurable columns lock to a single row on desktop and collapse to a tidy 2x2 grid on mobile. Every column, link, font and color lives in the property panel, so you can match any brand in minutes without touching code.",
+      "price": "$8",
+      "previewUrl": "https://footersection3.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ed1110c0-ff84-4696-88ee-e29091667286"
+    },
+    {
+      "name": "Footer Section 4",
+      "slug": "footer-section-4",
+      "category": "Footer",
+      "description": "FooterSection4 combines a call-to-action panel and a footer in one section for Framer. An abstract mark, a two-tone headline with one highlighted phrase, supporting subtext and a pill button sit above up to 4 configurable link columns and a simple copyright bar. Built for sites that want to close the page with one last nudge toward action, not just a list of links. Every color, font and size lives in the property panel \u2014 no code required.",
+      "price": "$8",
+      "previewUrl": "https://footersection4.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/5add24a8-fa35-41f2-a2c2-58fb7fb6159b"
+    },
+    {
+      "name": "Footer Section",
+      "slug": "footer-section",
+      "category": "Footer",
+      "description": "FooterSection is a premium, theme-aware footer for Framer. A giant brand wordmark bleeds off the bottom edge of the section with an adjustable fade mask \u2014 the signature detail most footers skip. Switch between a warm paper theme, a frosted glass theme, or fully custom colors, all controlled without touching code. Every column, link, icon and color lives in the property panel, so you can drop it into any site and match your brand identity in just a few minutes.",
+      "price": "$12",
+      "previewUrl": "https://footersection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/af284d71-b94f-4aaf-a141-316f75b91785"
+    },
+    {
+      "name": "Meet Team",
+      "slug": "meet-team",
+      "category": "Team",
+      "description": "Meet Team is a clean team-showcase component for Framer, presenting each member's photo, name and role in a simple card row.",
+      "price": "$12",
+      "previewUrl": "https://meetteam.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/0790bbfe-bc81-48a6-a032-2264d9db3609"
+    },
+    {
+      "name": "Team Section Pro",
+      "slug": "team-section-pro",
+      "category": "Team",
+      "description": "TeamSectionPro is a numbered team list for Framer. Each row shows a member's name and role; clicking or tapping it expands an accordion with their bio, portrait, and social links \u2014 fully reachable by keyboard, not just mouse. A gradient sweep reveals each name on hover or open, and the header pairs an eyebrow label with a heading and side text.",
+      "price": "$12",
+      "previewUrl": "https://teamsectionpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/cada87e7-f25d-4fc4-a137-758cead9f735"
+    },
+    {
+      "name": "Blog Article Cards",
+      "slug": "blog-article-cards",
+      "category": "Blog",
+      "description": "BlogArticleCards is a theme-aware blog and article card grid for Framer. Each card pairs a photo or looping video with a signature quarter-circle notch button in the corner, a real clickable headline, a short summary, and up to three color-coded category tags. Flip instantly between light paper and dark glass themes with a built-in toggle, or lock in your own brand colors with Custom mode. Perfect for teams who want a polished, editorial-style listing without CSS.",
+      "price": "$12",
+      "previewUrl": "https://blogarticlecards.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/b5f4a392-bb96-487e-9c59-fadca9a44b66"
+    },
+    {
+      "name": "Horizontal Blog Cards",
+      "slug": "horizontal-blog-cards",
+      "category": "Blog",
+      "description": "Horizontal Blog Card is a production-ready Framer component for editorial layouts. It combines a left-side image or video panel with a structured content area \u2014 including title, excerpt, tag pills, author avatar, publish date, and a call-to-action button. All visual properties are exposed as Framer property controls: three theme presets (Dark, Light, Glass), custom card background, border, shadow, font family, tag colors, and button styling. The card scales responsively and hides secondary elements at narrow widths.",
+      "price": "$9",
+      "previewUrl": "https://horizontalblogcard.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/77f9fa06-a674-4996-8bae-b2f13e2b2f0d"
+    },
+    {
+      "name": "Vertical Blog Cards",
+      "slug": "vertical-blog-cards",
+      "category": "Blog",
+      "description": "Vertical Blog Card is a production-ready Framer component for editorial and content layouts. It stacks a top image or video panel above a structured content area \u2014 including title, excerpt, tag pills, author avatar, publish date, and a call-to-action button. The media panel supports five aspect ratios (16:9, 4:3, 3:2, 1:1, 21:9) and a smooth bottom gradient fade into the card. All visual properties are exposed as Framer property controls: three theme presets (Dark, Light, Glass), custom card background, shadow, font family, tag colors, and button styling. The card scales responsively and hides secondary elements at narrow widths.",
+      "price": "$9",
+      "previewUrl": "https://blogcardvertical.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/372fa8e4-8306-400b-9e6c-aea5427e620c"
+    },
+    {
+      "name": "Logo Spin",
+      "slug": "logo-spin",
+      "category": "Logo",
+      "description": "LogoSpin is a fully animated, circular logo showcase component for Framer. Designed to display client logos, partner brands, sponsor names and technology stacks in a clean, rotating layout. Choose between a classic flat 2D rotating wheel or a cinematic tilted 3D orbit \u2014 and switch between them live during presentations using the built-in Demo Mode overlay panel. Each logo animates in with a staggered fade and scale effect on first load. Logos support images, SVGs or auto-generated initials, with individual size and image scale overrides per item. Full shape, shadow, border and padding controls give you complete styling flexibility. Hover tooltips reveal brand names with smooth animated labels. A customizable center title with font, border style and fill rounds out the layout.",
+      "price": "Free",
+      "previewUrl": "https://logospin.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/58eededc-7033-4ca7-a122-f707346b9009"
+    },
+    {
+      "name": "Reveal Gallery Pro",
+      "slug": "reveal-gallery-pro",
+      "category": "Gallery",
+      "description": "RevealGalleryPro is a fullscreen reveal gallery for Framer. Click any panel and it expands edge-to-edge with a scale, circle, or wipe reveal animation, while the other panels scale out and fade. Built for portfolios, agencies, and product pages that need a dramatic, editorial-style image reveal.",
+      "price": "$12",
+      "previewUrl": "https://revealgallerypro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/58f66cbe-bd6e-4148-94fd-97f4ed41f19e"
+    },
+    {
+      "name": "Accordion Images Pro",
+      "slug": "accordion-images-pro",
+      "category": "Gallery",
+      "description": "AccordionImagesPro is a cinematic project list component for Framer. Each row reveals a full-screen background image on hover with a dramatic zoom-out effect and smooth mouse parallax. A directional highlight bar sweeps across each item \u2014 up, down, left or right \u2014 using mix-blend-mode exclusion for bold typographic contrast. Built for portfolios, creative studios and agency sites that demand visual impact.",
+      "price": "$8",
+      "previewUrl": "https://accordionimagespro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/f652265f-ff06-43f6-acda-f8617f55d222"
+    },
+    {
+      "name": "Cards Gallery",
+      "slug": "cards-gallery",
+      "category": "Gallery",
+      "description": "CardsGallery is a scroll-driven 3D ring gallery for Framer. Project cards orbit in a perspective-tilted ring \u2014 scroll to spin on desktop, drag to rotate on mobile. Hover any card to pull it forward and reveal a live center preview with project title, category, and image. With parallax tilt, a custom animated cursor, dark/light theme toggle, and an infinite card loop, it creates a cinematic portfolio experience that works out of the box.",
+      "price": "$12",
+      "previewUrl": "https://cardsgallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/9e40fee6-972b-48f3-8949-008662c46d58"
+    },
+    {
+      "name": "Cards Hover Section",
+      "slug": "cards-hover-section",
+      "category": "Gallery",
+      "description": "CardsHoverSection is a cinematic dual-row image gallery for Framer. Hover any image and it lifts and brightens while its neighbors dim in a smooth falloff, built with pure CSS. Click on any image to open a fully animated modal, with a customizable tag, title, description and call-to-action button. Perfect for bold, editorial-style brand sections that need real personality.",
+      "price": "$12",
+      "previewUrl": "https://cardshoversection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/bf6883e4-7558-43bc-9286-68d717e343fb"
+    },
+    {
+      "name": "Curved Images Gallery",
+      "slug": "curved-images-gallery",
+      "category": "Gallery",
+      "description": "Curve Image Gallery is a horizontal scroll gallery that bends your images into a 3D coverflow arc as visitors drag, scroll, or swipe. The centered image stays sharp and full-opacity while the rest dim and curve away into perspective \u2014 a premium, editorial way to present visual work, no extra code needed.",
+      "price": "$12",
+      "previewUrl": "https://curveimagegallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ec375678-240b-4af9-9d9c-390ea3684dfa"
+    },
+    {
+      "name": "Cylinder Scroll Gallery",
+      "slug": "cylinder-scroll-gallery",
+      "category": "Gallery",
+      "description": "Cylinder Scroll Gallery is a 3D image gallery component for Framer that displays content on a rotating cylinder. Customize rows, columns, radius, card size, spacing, border radius, rotation speed and tilt angle to build immersive galleries and portfolios.",
+      "price": "$8",
+      "previewUrl": "https://cylinderscrollgallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/332b1740-d2b4-46f3-8722-df38fdcc6c42"
+    },
+    {
+      "name": "Flow Gallery Pro",
+      "slug": "flow-gallery-pro",
+      "category": "Gallery",
+      "description": "Most image galleries sit still and wait to be clicked. Flow Gallery Pro moves. Images drift freely across the canvas in any direction \u2014 up, down, left, or right \u2014 each at its own speed and angle. Hover over one to pause it while the rest keep flowing. Move your cursor across the screen and watch images repel or gravitate toward it. Click any image to open it in a full-screen lightbox. Other floating gallery components give you drifting images \u2014 Flow Gallery Pro gives you a living canvas that reacts to your cursor, responds to hover, and adapts its layout based on how many images you add.",
+      "price": "$8",
+      "previewUrl": "https://flowgallerypro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/d47aaeff-13b3-4eeb-933e-b8521ec691df"
+    },
+    {
+      "name": "Gallery Lightbox Pro",
+      "slug": "gallery-lightbox-pro",
+      "category": "Gallery",
+      "description": "GalleryLightbox Pro is a responsive image gallery component for Framer with a built-in fullscreen lightbox. Click any thumbnail to open a smooth, animated overlay with click-to-zoom, arrow-key navigation between images, and Escape to close. Hover effects reveal staggered titles, tags, gradient overlays, and an expand icon on each card. Choose between paper and glass theme modes and use full property controls to match any design system. Fully responsive with automatic column switching \u2014 1 column on mobile, 2 on tablet, and up to 5 on desktop. Perfect for portfolios, photography sites, agencies and creative studios.",
+      "price": "$8",
+      "previewUrl": "https://gallerylightboxpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/4eede13e-1ef7-491e-a9a5-2381bd038bc6"
+    },
+    {
+      "name": "Hover Gallery X",
+      "slug": "hover-gallery-x",
+      "category": "Gallery",
+      "description": "HoverGalleryX is an interactive image gallery for Framer. Images sit in a horizontal strip as slim pills that expand on hover with smooth 3D card-fan animations. Mouse-tracked parallax, staggered entrance, fullscreen lightbox and Demo Mode \u2014 all included out of the box.",
+      "price": "$12",
+      "previewUrl": "https://hovergalleryx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/9b9bc189-8de1-411f-a7f6-6f390209ebe7"
+    },
+    {
+      "name": "Image Scroll Effect",
+      "slug": "image-scroll-effect",
+      "category": "Gallery",
+      "description": "Image Scroll Effect is a scroll-driven image grid component for Framer. Nine images are arranged in a 45\u00b0 tilted layout, with each column moving at a different speed and direction as the user scrolls \u2014 creating a cinematic, depth-driven visual effect. Drop it into any section, add your images from the property panel, and it works instantly. No code required.",
+      "price": "$8",
+      "previewUrl": "https://useimagescrolleffect.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/b94235b8-5b23-4830-87a9-489785d588ad"
+    },
+    {
+      "name": "Layout Cards Page",
+      "slug": "layout-cards-page",
+      "category": "Gallery",
+      "description": "Layout Cards Page turns a simple image grid into a full-screen storytelling layout for Framer. Click any card and it expands to fill the screen with a title, description and call-to-action button, while the rest of the grid scales away and fades out. Fully responsive, keyboard-accessible and touch-ready \u2014 built for portfolios, agencies and product pages.",
+      "price": "$8",
+      "previewUrl": "https://layoutcardspage.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6234a268-8d02-43e2-8cc8-fc19bab9ca1b"
+    },
+    {
+      "name": "Lens Gallery",
+      "slug": "lens-gallery",
+      "category": "Gallery",
+      "description": "A gallery where images come alive the moment you look at them. LensGallery starts every photo in grayscale \u2014 hover over any card and it expands, reveals full color, and tilts toward your cursor with a subtle 3D effect. Neighbors shift to medium size, keeping a natural visual hierarchy without any configuration. Built for teams, portfolios, and brands that want their gallery to feel like an experience, not just a grid.",
+      "price": "$8",
+      "previewUrl": "https://lensgallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6ba1ac56-a7a3-46d2-ba6e-5c195c28443e"
+    },
+    {
+      "name": "Mood Gallery",
+      "slug": "mood-gallery",
+      "category": "Gallery",
+      "description": "Most gallery components give you a grid. Mood Gallery gives you an atmosphere. Each of the four moods \u2014 Editorial, Luxury, Chaos, and Raw \u2014 transforms the entire visual experience at once: the color grade, the scroll speed, the perspective, the texture. Switch moods and your gallery doesn't just look different, it feels different. Other 3D gallery components give you a perspective toggle. Mood Gallery gives you 11 perspectives \u2014 Slant, Deck, Lens, Strip, Worm, Orbit, Horizon, Crane, Fisheye, Stage, and Dome.",
+      "price": "$8",
+      "previewUrl": "https://moodgallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/58d87ff0-3775-4533-ab32-805cdabc0fe7"
+    },
+    {
+      "name": "Product Gallery Pro",
+      "slug": "product-gallery-pro",
+      "category": "Gallery",
+      "description": "ProductGallery Pro is a professional media gallery component for Framer. Display images and videos in a polished, interactive gallery with thumbnail navigation, smooth transitions, fullscreen mode, and zoom. Built for e-commerce, portfolios, and product showcases \u2014 works seamlessly on desktop and mobile out of the box.",
+      "price": "$9",
+      "previewUrl": "https://productgallerypro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/f68fa5e5-8ca1-4c93-b78b-8dc415cdd84d"
+    },
+    {
+      "name": "Reveal Grid",
+      "slug": "reveal-grid",
+      "category": "Gallery",
+      "description": "RevealGrid is an animated portfolio grid component for Framer. Each card opens with a cursor-tracked circular reveal that originates exactly where your mouse enters, creating a fluid, editorial interaction that feels intentional and alive. Category, title and description stagger in with a smooth slide-up motion, followed by an animated left-to-right divider line. Choose between Paper and Glass themes for any brand direction. Fully responsive: desktop supports up to four columns, tablet adapts automatically, and mobile collapses to a clean vertical stack under 600px. Demo Mode lets you tweak columns, gap and hover speed live on the canvas.",
+      "price": "$12",
+      "previewUrl": "https://revealgrid.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/cab8a29f-7d19-4411-86bb-2987e9b94fd7"
+    },
+    {
+      "name": "Scroll Cards Gallery",
+      "slug": "scroll-cards-gallery",
+      "category": "Gallery",
+      "description": "Scroll Cards Gallery is a scroll-driven photo and video grid for Framer. Tiles rotate, scale and lean into 3D as you scroll and move your cursor, then snap open into a full-screen lightbox on click. Fully responsive with dark and light mode built in. Perfect for portfolios, moodboards and visual storytelling sites.",
+      "price": "$12",
+      "previewUrl": "https://scrollcardsgallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/d05c9ed0-55a5-46ab-9f9e-b8cef596353e"
+    },
+    {
+      "name": "Scroll Images Pro",
+      "slug": "scroll-images-pro",
+      "category": "Gallery",
+      "description": "Scroll Images Pro is a cinematic, scroll-driven image gallery for Framer. Each scroll step reveals a new panel with a giant animated title, a skewed motion effect tied to scroll speed, and an optional heading, description and button that fade in with a staggered reveal. Fully responsive and built for hero sections, portfolios and story-driven landing pages that need real cinematic scroll motion.",
+      "price": "$12",
+      "previewUrl": "https://scrollimagespro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/00db75dc-0a69-4bf1-a9d7-63ba9677af9b"
+    },
+    {
+      "name": "Wave Gallery",
+      "slug": "wave-gallery",
+      "category": "Gallery",
+      "description": "WaveGallery Pro is a scroll-driven dual-wave gallery for Framer, inspired by cinematic editorial scroll effects. As you scroll, titles and subtitles ripple past a centered image or video that crossfades between items, while a live index counter tracks your exact position. Every item supports either an image or an uploaded video, and only the active video plays \u2014 keeping performance smooth on long lists. Fully responsive with container-query scaling for fonts, spacing and media size, plus native touch scrolling \u2014 no libraries, zero setup required.",
+      "price": "$8",
+      "previewUrl": "https://wavegallerypage.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/b31c2e38-0886-4e9a-ba04-800d38837051"
+    },
+    {
+      "name": "Announcement Banner",
+      "slug": "announcement-banner",
+      "category": "Banner",
+      "description": "Announcement Banner is a production-ready Framer component built for e-commerce storefronts, landing pages, and promotional campaigns. Drop-in announcement bar for e-commerce sites. Features a flip countdown, one-click coupon copy, a seamless ticker, and 4 built-in themes. Fully responsive across 3 breakpoints, ARIA-accessible, and dismissible with optional localStorage persistence.",
+      "price": "$8",
+      "previewUrl": "https://theannouncementbanner.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6014e52a-d1ad-4c9e-82c6-7cf7f30bf287"
+    },
+    {
+      "name": "Video Studio",
+      "slug": "video-studio",
+      "category": "Video",
+      "description": "Video Studio is a premium, Apple-style video component for Framer. Videos sit inside a glowing, animated frame and open into a cinematic morph-transition lightbox on click. Fully responsive, keyboard accessible, and built for designers who want a video section that feels premium without writing code.",
+      "price": "$9",
+      "previewUrl": "https://videostudio.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/26b2ae49-d298-4383-9ab2-1b93af73ac5f"
+    },
+    {
+      "name": "404 Not Found Gallery",
+      "slug": "404-not-found-gallery",
+      "category": "404",
+      "description": "A modern 404 gallery experience designed to turn missing pages into memorable interactions. NotFound404Gallery combines bold visuals, smooth hover animations, image transitions, and clean navigation to keep users engaged instead of frustrated. Perfect for modern portfolios, SaaS products, creative studios, and premium websites. Instead of showing a generic error screen, this component creates an immersive gallery-style 404 page with interactive states, customizable visuals, and responsive layouts that feel polished on every device.",
+      "price": "$12",
+      "previewUrl": "https://notfound404gallery.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/978532cd-d1e9-449f-a724-e33e993c8a06"
+    },
+    {
+      "name": "Progress Timeline",
+      "slug": "progress-timeline",
+      "category": "Timeline",
+      "description": "ProgressTimeLine is a scroll-animated, numbered process timeline for Framer. Steps slide in with staggered entry animations as the section enters the viewport, the most visible step auto-highlights on scroll, and connector lines progressively fill with your accent color. Choose between paper and glass themes, vertical or horizontal layout, and toggle hover-reveal mode for a minimal look that unfolds on interaction.",
+      "price": "$8",
+      "previewUrl": "https://progresstimeline.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/c219d6f7-5861-4b44-af26-1aa212fae8da"
+    },
+    {
+      "name": "Timeline Section",
+      "slug": "timeline-section",
+      "category": "Timeline",
+      "description": "Timeline Pro is an animated chronological timeline section for Framer. Milestones expand accordion-style with a live connector rail, ghost-reveal year numbers, and optional images per entry. Fully responsive with built-in SEO markup and accessible keyboard navigation \u2014 perfect for company history, about pages, and brand story sections.",
+      "price": "$12",
+      "previewUrl": "https://timelinesection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/92c8c8dd-d6b4-4c7e-b47c-270b0c1e876a"
+    },
+    {
+      "name": "Countdown Timer X",
+      "slug": "countdown-timer-x",
+      "category": "Countdown",
+      "description": "Countdown Timer is a production-ready Framer component that counts down to either a relative duration or an absolute end date and time. Each digit flips with a smooth slide transition powered by Framer Motion. Switch between the classic flip-cell layout and a clean compact text mode with a single toggle. Three built-in themes \u2014 Dark, Light, and Custom \u2014 cover most design systems out of the box, and all five color tokens are fully overridable. Cell size, shape (rounded, square, circle), font family, label position, colon blink, and alignment are all exposed as property controls. A loop mode automatically restarts the timer when it expires, ideal for looping demos and prototypes.",
+      "price": "Free",
+      "previewUrl": "https://countdowntimerx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/20e10904-979e-4589-9490-0517d9b8313e"
+    },
+    {
+      "name": "Accordion Service",
+      "slug": "accordion-service",
+      "category": "Services",
+      "description": "AccordionSection is a numbered, animated accordion component for Framer. Each item expands with a smooth height animation on click, revealing its full description underneath. On hover, titles animate sharply from left to right with a precision reveal effect \u2014 creating a premium interactive layer that immediately elevates the page. A structured two-column header sits above the list, combining an eyebrow label, bold uppercase display heading and a right-aligned side description. This makes AccordionSection a complete, publication-ready section that drops into any Framer project with zero configuration.",
+      "price": "$12",
+      "previewUrl": "https://accordionservice.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/0179757b-bbaf-4a53-bde7-41581875ec1d"
+    },
+    {
+      "name": "Index Grid Section",
+      "slug": "index-grid-section",
+      "category": "Services",
+      "description": "IndexGridSection is an editorial \"table of contents\" style grid for Framer. Hairline-bordered cells fill with an inverted color sweep on hover, revealing an image, video or description \u2014 ideal for services, capabilities or work index pages, ready with zero extra styling. Built with native property controls, semantic HTML markup for stronger structure and search visibility.",
+      "price": "$12",
+      "previewUrl": "https://indexgridsection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/673d625a-a1c6-4625-8fe6-12481fb9542d"
+    },
+    {
+      "name": "Services Section 3",
+      "slug": "services-section-3",
+      "category": "Services",
+      "description": "ServicesSection Pro is a cinematic 3D coverflow carousel for Framer. Slides tilt, scale and drift into depth as visitors drag, click or use arrow keys, while a live paper (light) and glass (dark) theme toggle sits right on the canvas. Every text role, from eyebrow to tag, has its own font, uppercase and color settings. Fully accessible, fully responsive and dependency-free.",
+      "price": "$9",
+      "previewUrl": "https://servicessection3.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/e6931a14-4c80-4207-8cf6-1ee8b4dde602"
+    },
+    {
+      "name": "Phone Scroll Pro",
+      "slug": "phone-scroll-pro",
+      "category": "Carousels",
+      "description": "Phone Scroll Pro brings your product story to life inside a realistic iPhone frame. Slides transition in sync with scroll, backed by animated background color, ambient glow, and giant ambient slide numbers for depth. A 3D tilt effect follows cursor movement, and a circular reveal dark/light mode toggle expands from the tap point for a premium, tactile feel.",
+      "price": "$8",
+      "previewUrl": "https://phonescrollpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/50156ea1-8827-4cf8-8959-4286ae761d12"
+    },
+    {
+      "name": "Hotspot Carousel",
+      "slug": "hotspot-carousel",
+      "category": "Carousels",
+      "description": "HotspotCarousel is an interactive image carousel for Framer. Place clickable hotspot pins anywhere on each slide \u2014 each pin opens a popup card with a title, price, description, and a CTA button. Perfect for shop-the-look campaigns, product showcases, and visual storytelling.",
+      "price": "$8",
+      "previewUrl": "https://hotspotcarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/dafb64df-a271-468d-95a3-f9e929caae6c"
+    },
+    {
+      "name": "Accordion Cards Pro",
+      "slug": "accordion-cards-pro",
+      "category": "Carousels",
+      "description": "AccordionCards Pro is an interactive card gallery for Framer. Cards expand on hover with staggered blur animations, parallax & cursor glow. Fully responsive with mobile touch support. Perfect for portfolios, agencies and landing pages.",
+      "price": "$12",
+      "previewUrl": "https://accordioncardspro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/70655b83-dd5d-4d7d-90e8-c5a1e1d8582d"
+    },
+    {
+      "name": "Accordion Gallery X",
+      "slug": "accordion-gallery-x",
+      "category": "Carousels",
+      "description": "AccordionGalleryX is a click-to-expand cinematic gallery component for Framer. Each card starts as a slim vertical strip and expands on click to reveal a full-cover image \u2014 transitioning from grayscale to full color with a smooth parallax shift. A staggered sequence of name, animated divider, job title, and CTA button fades into view with precisely timed delays. On mobile, the layout automatically switches to a vertical stack with height-based animation, providing full touch support without any extra configuration.",
+      "price": "$12",
+      "previewUrl": "https://accordiongalleryx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/7aa4961f-3a4f-4811-9461-019df15edd13"
+    },
+    {
+      "name": "Cards Carousel X",
+      "slug": "cards-carousel-x",
+      "category": "Carousels",
+      "description": "Cards Carousel is a cinematic featured-card carousel for Framer. One wide active card takes center stage while a scrollable filmstrip of thin neighbor cards sits beside it \u2014 click any sliver to bring it forward with a smooth flex-based expand animation. Subtle parallax, staggered text reveal and autoplay add cinematic polish. Fully responsive with touch swipe, keyboard nav and screen-reader support. Perfect for team pages, testimonials and product showcases.",
+      "price": "$12",
+      "previewUrl": "https://cardscarouselx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/497bac2b-1f86-4494-87fe-3ca36aec8d6e"
+    },
+    {
+      "name": "Carousel Media",
+      "slug": "carousel-media",
+      "category": "Carousels",
+      "description": "Carousel Media is a premium media carousel component built for Framer. Showcase videos, images, product cards, testimonials, galleries, and interactive content inside a smooth responsive carousel with drag support, autoplay, hover effects, and modern motion design. Most Framer carousel components are limited to simple sliders with rigid layouts and minimal customization \u2014 Carousel Media is designed as a flexible media system for modern websites.",
+      "price": "$8",
+      "previewUrl": "https://carouselmedia.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/07ad0bbe-e9a2-4646-b386-a5a9601ab8b8"
+    },
+    {
+      "name": "Circle Carousel Pro",
+      "slug": "circle-carousel-pro",
+      "category": "Carousels",
+      "description": "Circle Carousel Pro is an animated arc gallery for Framer. Cards fan outward with 4 mood modes, hover parallax and glow. Includes a live interactive demo mode. Fully responsive with mobile touch support. Perfect for portfolios, agencies and landing pages.",
+      "price": "$8",
+      "previewUrl": "https://circlecarouselpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/b6d84988-e583-4d88-b2a2-0551e249514e"
+    },
+    {
+      "name": "Desktop Carousel",
+      "slug": "desktop-carousel",
+      "category": "Carousels",
+      "description": "Desktop Carousel is a Framer component designed to present videos and images in a clean, realistic desktop window frame. Built for modern websites, it supports autoplay, smooth transitions, responsive behavior, and full customization through Framer design controls.",
+      "price": "$8",
+      "previewUrl": "https://desktopcarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/430252c4-631a-4584-b7f6-d0eabb9c58fa"
+    },
+    {
+      "name": "Glide Carousel",
+      "slug": "glide-carousel",
+      "category": "Carousels",
+      "description": "Cards that breathe, drift & feel alive. Bring your portfolio, products, or team to life with a gallery that feels alive. GlideCarousel places cards in a 3D wave formation, each gliding independently with organic multi-layered motion \u2014 no two frames look the same. Four motion modes let you dial in the right feel: Wind for natural organic drift, Drift for slow cinematic movement, Magnetic for cursor-reactive cards that lean toward the mouse, or None for a clean static layout. Click any card to open a full modal with title and description. Supports both images and videos in the same carousel.",
+      "price": "$8",
+      "previewUrl": "https://glidecarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/4c071cc1-a951-4f70-b74e-920bd23585cf"
+    },
+    {
+      "name": "Image Carousel X",
+      "slug": "image-carousel-x",
+      "category": "Carousels",
+      "description": "Image Carousel X is a production-ready Framer component that transforms your image galleries into immersive 3D experiences. With convex and concave arc modes, cards rotate and recede in true perspective depth \u2014 not flat transitions. Every detail is customizable: card gap, arc strength, center and side card sizes, border radius, overlay gradient, caption with title and subtitle, hover scale, and background color. Built for real projects with touch/swipe support for mobile, cursor-tracking parallax on the active card, keyboard navigation (\u2190 \u2192), autoplay with pause-on-hover, lazy loading for performance, and a thumbnail strip for quick navigation. Accessibility-first with ARIA roles and live regions for screen readers.",
+      "price": "$9",
+      "previewUrl": "https://imagecarouselx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6b5b3241-52ce-4a61-a5c1-3f00f1a9514f"
+    },
+    {
+      "name": "iPad Media Carousel",
+      "slug": "ipad-media-carousel",
+      "category": "Carousels",
+      "description": "iPad Media Carousel is a Framer component for showcasing videos and images in a realistic iPad-style frame. Built for Framer, it includes autoplay, smooth transitions, responsive layout, and full customization via design controls for modern websites.",
+      "price": "$8",
+      "previewUrl": "https://ipadmediacarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/20f94549-9fa6-4240-a208-705b315ad316"
+    },
+    {
+      "name": "Phone Carousel",
+      "slug": "phone-carousel",
+      "category": "Carousels",
+      "description": "PhoneCarousel Pro is a realistic iPhone 15/16 Pro mockup for Framer with auto-scrolling screenshot and video rows, 3D mouse-tilt parallax and a live color-switching demo panel. Fully responsive and built to make any app or product instantly feel premium. Perfect for app landing pages, portfolios and product showcases.",
+      "price": "$12",
+      "previewUrl": "https://phonecarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/029d2658-4d15-4b7e-be96-8c58a745fbb8"
+    },
+    {
+      "name": "Screen Carousel",
+      "slug": "screen-carousel",
+      "category": "Carousels",
+      "description": "Screen Carousel is a Framer component designed to present videos and images in a minimal, modern screen frame. Built for modern websites, it supports autoplay, smooth transitions, responsive behavior, and full property controls for customization.",
+      "price": "$8",
+      "previewUrl": "https://screencarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/d4771951-017e-4d2a-8901-d24d50dafc9a"
+    },
+    {
+      "name": "Story Section",
+      "slug": "story-section",
+      "category": "Carousels",
+      "description": "An Instagram-style story carousel with up to 4 image or video slides, auto-advancing progress bars, mute control, swipe and keyboard navigation, customizable thumbnails, captions and a CTA button. A full-screen story-style hero player with smooth crossfade transitions, clickable thumbnail navigation, and per-story CTA buttons \u2014 supports video and image sources. Pauses off-screen, fully accessible and editor-safe.",
+      "price": "$12",
+      "previewUrl": "https://storysection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/609da0ca-9f6d-477a-8e47-ece46e2176a0"
+    },
+    {
+      "name": "Story Slider",
+      "slug": "story-slider",
+      "category": "Carousels",
+      "description": "Instagram-style story slider for Framer: showcase images and videos with 8 transition effects (fade, slide, wipe, zoom, iris, bars, morph and dissolve). Includes autoplay, progress bars, captions, CTA buttons, and thumbnail navigation. Fully customizable typography and a live Demo Mode, built with pure React and Canvas 2D \u2014 no WebGL, no GSAP, no external dependencies.",
+      "price": "$12",
+      "previewUrl": "https://storyslider.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/51de3129-7cf4-45df-b7ba-dc465f0faebe"
+    },
+    {
+      "name": "Soft Background",
+      "slug": "soft-background",
+      "category": "Background",
+      "description": "Soft Background is a fully customizable animated background component for Framer. Smooth, blurred color orbs drift slowly across the canvas, creating a living mesh-gradient effect without any external dependencies. Perfect for landing pages, hero sections, portfolio backgrounds, SaaS dashboards, app loading screens, and any design that needs ambient depth without heavy assets \u2014 no images, no external fonts, no dependencies beyond Framer's built-in Motion library.",
+      "price": "Free",
+      "previewUrl": "https://softbackground.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/c52cf800-75b4-46c7-86c9-1c6a0d6502d1"
+    },
+    {
+      "name": "Compare Slider Pro X",
+      "slug": "compare-slider-pro-x",
+      "category": "Background",
+      "description": "CompareSlider is an interactive before and after image slider for Framer. Drag a smooth vertical or horizontal divider to compare two images with full precision. Powered by unified pointer events for seamless mouse and touch interaction. Choose from paper or glass themes, add custom labels, control image focus points on both axes, and switch directions with a single prop.",
+      "price": "$6",
+      "previewUrl": "https://compareslider.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/7aa3933f-2fb3-4e6c-b730-b68ef875bf81"
+    },
+    {
+      "name": "Aura Cursor",
+      "slug": "aura-cursor",
+      "category": "Background",
+      "description": "AuraCursor is an ambient, cursor-reactive glow effect component for Framer. A soft plasma-like aura trails behind the mouse pointer, blending vivid color streaks against a dark canvas to create a living, atmospheric background layer. Built to add a premium, cinematic touch to hero sections and full-page backgrounds without any external assets.",
+      "price": "$8",
+      "previewUrl": "https://auracursor.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/fb464166-9707-4fbf-91e0-61964cc7f996"
+    },
+    {
+      "name": "Confetti Show",
+      "slug": "confetti-show",
+      "category": "Background",
+      "description": "ConfettiShow is a high-performance canvas-based confetti system built to bring energy, motion, and celebration to any Framer project. Rendered entirely on an HTML canvas with requestAnimationFrame, it delivers smooth, fluid animation without touching the DOM for each particle, keeping performance consistent even at high particle counts. Every piece of confetti is generated with full 3D tumble physics \u2014 each particle carries independent rotation values across all three axes, and a foreshortening technique simulates realistic depth as pieces spin and flip in space, without the overhead of WebGL.",
+      "price": "$5",
+      "previewUrl": "https://confettishow.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/c6d61bed-b095-468c-9e0b-f28a0ffe5e5d"
+    },
+    {
+      "name": "Cosmic Background",
+      "slug": "cosmic-background",
+      "category": "Background",
+      "description": "CosmicBackground is a canvas-powered animated background for Framer. Five particle rings rotate around a breathing spotlight while a star field drifts with your cursor. Film grain adds cinematic depth. Built for dark, high-end websites that demand atmosphere without compromise.",
+      "price": "Free",
+      "previewUrl": "https://cosmicbackground.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/505fe991-63b2-46b7-b4ab-008eb579550a"
+    },
+    {
+      "name": "Cursor Reveal",
+      "slug": "cursor-reveal",
+      "category": "Background",
+      "description": "Cursor Reveal is a WebGL-powered hero component for Framer. Move your cursor across the canvas to paint a fluid trail that reveals a hidden image beneath the surface. Built with Three.js and a custom GLSL shader pipeline for buttery-smooth, GPU-accelerated performance.",
+      "price": "$8",
+      "previewUrl": "https://cursorreveal.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/7c224919-1e64-4370-a94f-1d7e7d55c47b"
+    },
+    {
+      "name": "Dot Field Grid",
+      "slug": "dot-field-grid",
+      "category": "Background",
+      "description": "DotField is a high-performance canvas-based background component for Framer. As the cursor moves, dots repel or attract toward it \u2014 creating a smooth, liquid-like motion effect that reacts in real time. Designed to drop directly into any Framer project as a background layer, with zero configuration required. Every parameter is exposed via property controls so non-developers can customize it entirely from the Framer panel. Includes two components: DotField \u2014 production-ready, clean canvas for your pages, and DotFieldDemo \u2014 live control panel for presentations and client demos.",
+      "price": "$8",
+      "previewUrl": "https://dotfield.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/73ee20ce-d8af-4676-90a3-662f7a352f19"
+    },
+    {
+      "name": "Node Field",
+      "slug": "node-field",
+      "category": "Background",
+      "description": "NodeField is a GPU-accelerated interactive particle network for Framer. Move your cursor to repel or attract thousands of nodes in real time \u2014 with optional connection lines that turn your background into a living, breathing network. Built entirely with WebGL for maximum performance, smooth at any node count, on any screen size. Includes two components: NodeField, production-ready to drop into any page, and NodeFieldDemo, a live control panel to explore all settings in real time.",
+      "price": "$8",
+      "previewUrl": "https://usenodefield.framer.website",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/058c348b-b6c5-48b7-b10c-5d04ed1a7d60"
+    },
+    {
+      "name": "Shooting Stars Pro",
+      "slug": "shooting-stars-pro",
+      "category": "Background",
+      "description": "ShootingStarsPro brings a fully animated night sky to your Framer projects \u2014 complete with shooting stars, meteor showers, glowing star fields and real-time parallax. Built on a high-performance canvas renderer, it runs at 60fps with zero layout impact. Choose from 5 distinct meteor styles, 4 dark themes, and control every detail through clean property panels. The built-in Demo Mode lets you preview changes live \u2014 no re-publishing needed.",
+      "price": "$8",
+      "previewUrl": "https://shootingstarspro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/e6e78d36-5914-4bb8-b105-deab293e31f9"
+    },
+    {
+      "name": "Wave Lines",
+      "slug": "wave-lines",
+      "category": "Background",
+      "description": "WaveLines is a GPU-powered WebGL animation component for Framer. Silky smooth Perlin noise wave lines flow in real time, fully customizable from the property panel \u2014 no code or setup needed. Perfect as a hero background, section divider or ambient visual layer on any landing page.",
+      "price": "$8",
+      "previewUrl": "https://wavelines.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/5eeb54cd-c594-431c-9de7-6bb7a6236646"
+    },
+    {
+      "name": "Animated Stats Pro",
+      "slug": "animated-stats-pro",
+      "category": "Data",
+      "description": "Animated Stats is a production-ready Framer component that animates numbers when scrolled into view. Unlike basic counter components, it ships with 4 distinct animation styles, a built-in interactive Demo Mode, and automatic responsive behavior. Drop it on any page, add your numbers, and you're done.",
+      "price": "Free",
+      "previewUrl": "https://animatedstatspro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/4b6a7bd2-de29-4650-b7c9-382b5b2dcda6"
+    },
+    {
+      "name": "Diagram Flow",
+      "slug": "diagram-flow",
+      "category": "Data",
+      "description": "DiagramFlow is a three-in-one animated developer diagram component for Framer. Switch between Neural Logic Graph, Decision Tree and Latency Trace \u2014 all in a single component with full property controls and a built-in demo mode.",
+      "price": "$8",
+      "previewUrl": "https://diagramflow.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/22f0c690-2b2c-4251-98c7-4001199b1088"
+    },
+    {
+      "name": "World Map Arc",
+      "slug": "world-map-arc",
+      "category": "Data",
+      "description": "WorldMapArc is an animated route map component for Framer. Drop in a set of city pairs and watch curved arcs draw across the globe with animated pins and hover cards revealing route data. Includes 7 color presets, two pin styles and a live demo panel. Built for dashboards, SaaS landing pages and data-driven storytelling.",
+      "price": "$8",
+      "previewUrl": "https://worldmaparc.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/386daf7d-adc3-415e-a73d-e8cca7520890"
+    },
+    {
+      "name": "Progress Circle Bars",
+      "slug": "progress-circle-bars",
+      "category": "Data",
+      "description": "Progress Circle Bars is a set of animated circular progress indicators for Framer, with three distinct ring styles \u2014 solid Circle, segmented Dashes, and a half-round Gauge \u2014 all showing a centered percentage and label. Each ring animates its fill on scroll, comes in multiple sizes and colors, and drops straight into dashboards, stat sections, or skill/proficiency displays.",
+      "price": "Free",
+      "previewUrl": "https://progresscirclebars.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/99b34988-0e18-4728-9d46-692f26ca1c59"
+    },
+    {
+      "name": "Animated Checkbox",
+      "slug": "animated-checkbox",
+      "category": "Forms",
+      "description": "Animated Checkbox UI is a polished, fully customizable checkbox and toggle component for Framer, built for forms and settings panels that need to feel as good as they look. Every state change animates smoothly \u2014 the fill, border and check icon transition together, and a soft focus ring appears automatically when the input is focused, giving users clear feedback on each interaction.",
+      "price": "Free",
+      "previewUrl": "https://animatedcheckboxui.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/be9b2ddf-8806-42d0-ab35-ef970e9638c5"
+    },
+    {
+      "name": "Animated Loader Pro",
+      "slug": "animated-loader-pro",
+      "category": "Forms",
+      "description": "AnimatedLoader Pro is a versatile animated loading spinner for Framer with 4 distinct styles \u2014 Lines, Ring, Dual Ring and Dots. Fully customizable colors, size, thickness and speed. Perfect for buttons, forms, page transitions and async UI states.",
+      "price": "Free",
+      "previewUrl": "https://animatedloaderpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ed8129d4-ca61-4c8d-bede-d1eb4083dbfd"
+    },
+    {
+      "name": "Badges Kit",
+      "slug": "badges-kit",
+      "category": "Forms",
+      "description": "BadgesKit is a flexible, production-ready badge component for Framer, built for status indicators, tags, and labels across dashboards, SaaS products, and marketing sites. Choose from 9 built-in tones, 3 sizes, and both light & dark themes, or define fully custom colors to match your brand. Each badge supports icons (check, cross, minus, dot, animated spinner, or any custom emoji/symbol) and can be made dismissible with a smooth exit animation. A built-in Demo Mode showcases every tone and icon combination side-by-side in light and dark panels \u2014 perfect for picking the right style at a glance.",
+      "price": "Free",
+      "previewUrl": "https://badgeskit.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/4522b7ba-4313-45c4-908b-c767bb9b558a"
+    },
+    {
+      "name": "Linear Progress Bars",
+      "slug": "linear-progress-bars",
+      "category": "Forms",
+      "description": "10 distinct progress bar row styles in a single polished card. Value-to-max ratio bars with gradient fills, a shimmer upload bar with animated glow cap and spinning icon, a completed file row with solid fill and check icon, a failed upload state with error color and retry subtitle, a segmented storage bar with milestone dividers, a gradient task queue bar with dot cap indicator, an inline progress bar layout with live spinner, and a transfer bar with shimmer effect and line cap. Bars animate in on scroll reveal, and the whole card switches between light and dark theme with a single click.",
+      "price": "Free",
+      "previewUrl": "https://linearprogressbars.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/908b6ee0-6409-4e52-8e64-69d3e66b5c06"
+    },
+    {
+      "name": "Rating Stars Pro",
+      "slug": "rating-stars-pro",
+      "category": "Forms",
+      "description": "Rating Stars Pro is a fully animated, accessible star rating component for Framer. Click any star to set a rating with smooth fill and burst animations, wave cascade effects, dynamic color range and optional glow. Includes an interactive demo panel for showcasing every feature in real time.",
+      "price": "Free",
+      "previewUrl": "https://ratingstarspro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6087199a-7b82-4a90-a017-8541b2d53872"
+    },
+    {
+      "name": "Toggle Pro",
+      "slug": "toggle-pro",
+      "category": "Forms",
+      "description": "TogglePro is a fully animated, accessible toggle switch for Framer. Smooth thumb slide with a subtle squish bounce, a focus ring, and a live light/dark showcase mode to preview every state at once. Perfect for settings panels, forms and feature toggles.",
+      "price": "Free",
+      "previewUrl": "https://togglepro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/a00e1ff3-83b9-439c-a71f-d84d626ac4e1"
+    },
+    {
+      "name": "Bento Section",
+      "slug": "bento-section",
+      "category": "Bento",
+      "description": "BentoSection is an interactive bento grid gallery for Framer. Tiles are arranged in a true bento layout with custom column and row spans, and each one flips in 3D on click to reveal extended text on the back. The grid auto-adjusts its column count as the container resizes, so the layout always stays clean on any screen size. Fully responsive, keyboard accessible and built for portfolios, agencies and product pages.",
+      "price": "$12",
+      "previewUrl": "https://bentosection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/9f5373af-f38d-4e51-b509-d7c5cebb42eb"
+    },
+    {
+      "name": "Premium Bento",
+      "slug": "premium-bento",
+      "category": "Bento",
+      "description": "A modern bento grid for showcasing images, videos, and creative content in clean, responsive layouts. Build everything from uniform 2\u00d72 and 3\u00d73 grids to fully custom asymmetric bento layouts with featured hero items, smooth hover animations, and immersive popup interactions for a premium browsing experience. Designed for creators, agencies, startups, and portfolios, the component lets you build everything from minimal uniform grids to dynamic asymmetric bento layouts with highlighted hero items, featured cards, and immersive media presentation.",
+      "price": "$8",
+      "previewUrl": "https://premiumbento.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/da5982cc-2d8b-41fe-bb48-d40547f18693"
+    },
+    {
+      "name": "Case Study Section",
+      "slug": "case-study-section",
+      "category": "Section",
+      "description": "Case Study Pro is an animated portfolio case-study section for Framer. Numbered projects expand accordion-style with ghost-reveal titles and a result-metrics row that reveals alongside each description. Fully responsive with built-in SEO markup and accessible keyboard navigation \u2014 perfect for agencies, studios, and freelancer portfolios.",
+      "price": "$12",
+      "previewUrl": "https://casestudysection.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/d7962f0a-0791-4669-81e2-d5873ba4aa4f"
+    },
+    {
+      "name": "Hover Media Cards",
+      "slug": "hover-media-cards",
+      "category": "Section",
+      "description": "Hover Media Cards is an interactive image and video card component for Framer. Cards expand on hover with a smooth blur and reveal animation, showing a title, subtitles and a call-to-action button. Supports 2\u20133 columns, per-card glow, badges and custom overlays. Fully responsive with mobile tap support. Perfect for portfolios, agencies and landing pages.",
+      "price": "$9",
+      "previewUrl": "https://hovermediacards.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/a30268ec-8e87-4326-b611-82ef65a33291"
+    },
+    {
+      "name": "Kanban Board",
+      "slug": "kanban-board",
+      "category": "Section",
+      "description": "KanbanBoard is a fully interactive drag-and-drop task board for Framer. Cards snap between columns with physics-based tilt and lift animations, smooth ghost slot previews, and horizontal auto-scroll. Built entirely with native React \u2014 zero dependencies.",
+      "price": "$8",
+      "previewUrl": "https://kanbanboard.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/664eb295-f4d9-45ee-87b3-714763a5f056"
+    },
+    {
+      "name": "Discord Chat Widget",
+      "slug": "discord-chat-widget",
+      "category": "Widget",
+      "description": "Discord Chat Widget is a fully interactive chat button for Framer that brings the Discord experience to your website. Clicking the FAB opens a pixel-perfect Discord-style conversation window with smooth spring animations, typing indicator and quick replies. Perfect for gaming studios, developer communities, creator brands and any project that wants to grow a Discord server directly from their site.",
+      "price": "$4",
+      "previewUrl": "https://discordchatwidget.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/2b7dcaea-5f25-4706-9af4-6472bd3cdef2"
+    },
+    {
+      "name": "Instagram Widget",
+      "slug": "instagram-widget",
+      "category": "Widget",
+      "description": "Instagram Widget Pro is a fully interactive Instagram DM chat widget for Framer. Clicking the floating action button opens a pixel-perfect Instagram Direct-style conversation window with smooth spring animations, a typing indicator and customizable quick replies. Perfect for brands, creators and agencies that want to turn website visitors into Instagram followers and DM leads.",
+      "price": "$4",
+      "previewUrl": "https://instagramwidgetpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/0f3f5974-d93c-48a7-a36d-5a30367c938e"
+    },
+    {
+      "name": "Messenger Widget",
+      "slug": "messenger-widget",
+      "category": "Widget",
+      "description": "Messenger Chat Widget is a fully interactive live chat button for Framer. Clicking the FAB opens a realistic Messenger-style conversation window with smooth spring animations, typing indicators and quick replies. Perfect for businesses, agencies and e-commerce sites that want to convert visitors into Facebook Messenger leads.",
+      "price": "$4",
+      "previewUrl": "https://messengerwidget.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/d1b8d13e-8164-4789-9a73-656118800995"
+    },
+    {
+      "name": "Telegram Widget",
+      "slug": "telegram-widget",
+      "category": "Widget",
+      "description": "Telegram Chat Widget is a fully interactive live chat button for Framer. Clicking the FAB opens a realistic Telegram-style conversation window with smooth spring animations, a typing indicator and quick reply buttons. Perfect for creators, businesses and agencies that want to engage visitors and grow their Telegram audience directly from their Framer site.",
+      "price": "$4",
+      "previewUrl": "https://telegramwidget.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/e385d0db-4c03-4e63-90ae-19481a1fe564"
+    },
+    {
+      "name": "Effect 3D Images",
+      "slug": "effect-3d-images",
+      "category": "Card",
+      "description": "Image Deck 3D turns a single photo into an interactive layered hover effect for Framer. On hover, stacked image layers fan out into rectangles, circles, diamonds, hexagons, triangles, pentagons, stars, squircles or blobs \u2014 with optional grayscale, blur fade, parallax and true 3D tilt. Fully responsive, dependency-free and accessible out of the box.",
+      "price": "$8",
+      "previewUrl": "https://effect3dimages.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/805f1c5b-1a04-4332-b7b3-7775ffc90b76"
+    },
+    {
+      "name": "Feature Card Pro",
+      "slug": "feature-card-pro",
+      "category": "Card",
+      "description": "FeatureCardPro is an animated feature card component for Framer. Each card pairs a title, description and button with a live-animated illustration \u2014 a hovering cursor, a pulsing checklist, a typing code editor, an animated bar chart or a live dashboard node. Switch between light and dark themes, set a custom accent color, button style, background pattern and corner radius. Ideal for SaaS landing pages, product feature sections and app marketing sites.",
+      "price": "Free",
+      "previewUrl": "https://featurecardpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/eef11fa9-fb25-45d4-8493-cf9d41c04ada"
+    },
+    {
+      "name": "Focus Blur Frame",
+      "slug": "focus-blur-frame",
+      "category": "Card",
+      "description": "FocusFrame is an immersive video card component for Framer with smooth edge blur, vignette effect, and center focus. The video plays automatically in a loop while blurred edges create a natural image blur that draws the eye to the center \u2014 perfect for cinematic product showcases, editorial sections, and luxury brand experiences. The effect works by applying a progressive blur from the edges inward, keeping the center sharp and clear. Adjust the blur amount, edge size, and overlay color to create anything from a subtle soft-focus look to a dramatic cinematic vignette. Fully customizable via property controls \u2014 no code needed.",
+      "price": "$8",
+      "previewUrl": "https://focusframe.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/ce920c58-3275-46bd-bc02-6abf1855cfe8"
+    },
+    {
+      "name": "Glare Card",
+      "slug": "glare-card",
+      "category": "Card",
+      "description": "GlareCard is a 3D hover card component for Framer with cursor-reactive tilt animation and multi-style glare effects. The card responds to mouse movement with smooth spring-based 3D rotation, creating a realistic depth illusion that makes your UI feel physical and interactive. At the core is a real-time tilt system that rotates the card along both X and Y axes based on cursor position. GlareCard includes three distinct glare modes: Diamond mode generates sharp facet-like light spikes that radiate from the cursor, simulating the prismatic reflections of a cut gemstone. Holographic mode produces smooth hue-shifting color sweeps that change based on cursor angle, recreating the iridescent effect of a holographic foil card. Aurora mode creates soft flowing waves of purple, teal, and green light across the card surface, evoking the organic movement of the northern lights.",
+      "price": "$6",
+      "previewUrl": "https://glarecard.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/55f17289-8fe3-4330-b8de-88e138f3b6d3"
+    },
+    {
+      "name": "Hover Fade Cards",
+      "slug": "hover-fade-cards",
+      "category": "Card",
+      "description": "A premium product card component for Framer with a smooth hover-triggered blur overlay, staggered text animation, and four built-in color themes. The card presents a clean product image at rest, then reveals product details through a soft blur overlay with staggered fade-in text when hovered \u2014 giving product listings a polished, editorial feel without any custom code.",
+      "price": "Free",
+      "previewUrl": "https://hoverfadecard.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/e923b0d1-3fca-4ccc-8c58-ed158cba68be"
+    },
+    {
+      "name": "Hover Scan Card",
+      "slug": "hover-scan-card",
+      "category": "Card",
+      "description": "A premium hover card for Framer with a halftone dot effect that transforms your image into a stippled artwork at rest \u2014 then reveals it with a smooth lightsaber sweep animation on hover. Features a blur overlay with staggered content animations, full typography controls for Title, Price, Description, Button and Badge, five saber glow color presets, four overlay themes, and four sweep directions. Mobile tap support included. Perfect for fashion, real estate, AI platforms, and luxury brands.",
+      "price": "$8",
+      "previewUrl": "https://hoverscancard.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/a0a3ae16-c398-49e7-8f31-83ada17b9a0a"
+    },
+    {
+      "name": "Image Grid Animation",
+      "slug": "image-grid-animation",
+      "category": "Card",
+      "description": "Pixel Image Reveal is a scroll-triggered pixel grid animation component for Framer. When your image enters the viewport, a grid of animated pixels dissolves away to reveal the image beneath \u2014 creating bold, cinematic entrances that make your site unforgettable.",
+      "price": "$5",
+      "previewUrl": "https://pixelimage.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/817f7020-7d67-4df1-9647-05f616817b67"
+    },
+    {
+      "name": "Liquid Image Effect",
+      "slug": "liquid-image-effect",
+      "category": "Card",
+      "description": "LiquidImageEffect is a WebGL-powered interactive image distortion component for Framer. Images come alive with fluid, real-time effects triggered by mouse movement and touch \u2014 no setup, no coding required. Choose from four distinct distortion styles and drop it anywhere on your canvas.",
+      "price": "$8",
+      "previewUrl": "https://liquidimageeffect.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/061163d4-bb29-4986-bff3-d3730f76c846"
+    },
+    {
+      "name": "Profile Card Flip",
+      "slug": "profile-card-flip",
+      "category": "Card",
+      "description": "ProfileCardFlip is an interactive Framer component that transforms a standard team member card into a two-sided reveal experience. The front shows a full-bleed portrait with name and role. Click \u2014 and the card flips to expose a split-panel bio layout with an accent color column, photo overlay, and quote area on the right. Four flip styles let you match the card's personality to your brand: Flip Y for the classic reveal, Flip X for a top-down turn, Spring for a tactile bouncy feel, or Fade for a clean crossfade. Built for teams, agencies, and studios that want their \"Meet the Team\" section to feel alive \u2014 not static.",
+      "price": "$5",
+      "previewUrl": "https://profilecardflip.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/a17e8a8b-e80e-4fb3-a1a1-d4a53c504ffa"
+    },
+    {
+      "name": "Flowing Menu",
+      "slug": "flowing-menu",
+      "category": "Menu",
+      "description": "FlowingMenu is a high-impact navigation menu component for Framer. Each row reveals a smooth, infinite-scrolling marquee band on hover \u2014 sliding in from the nearest edge, detected in real time from your cursor position. Powered by GSAP with expo easing, it delivers a cinematic, editorial feel that elevates any website navigation.",
+      "price": "$8",
+      "previewUrl": "https://flowingmenu.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/8eb43f5d-74d1-4b4b-a188-4429fa4358ee"
+    },
+    {
+      "name": "Glass Showcase Pro",
+      "slug": "glass-showcase-pro",
+      "category": "Interaction",
+      "description": "GlassShowcasePro is a scroll-driven 3D glass box for Framer, built with WebGL and Three.js. As users scroll, images transition through a particle explosion \u2014 particles burst outward, mix colors between frames and reform into the next image. Encased in a physically accurate glass with transmission, IOR refraction and optional HDR environment lighting. Premium, smooth and unlike anything on the marketplace. Perfect for luxury product reveals, portfolio storytelling and brands that demand visual depth.",
+      "price": "$8",
+      "previewUrl": "https://glassshowcasepro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/54332b06-4916-43b6-82f9-4f2e636a68ee"
+    },
+    {
+      "name": "Globe Studio",
+      "slug": "globe-studio",
+      "category": "Interaction",
+      "description": "Six visual styles in one component: Realistic day/night Earth, Terrain with classified biomes, Wireframe grid, Hologram, Monochrome, and animated Neon edge glow. Auto-rotate the globe with adjustable speed, or drag to spin in any direction with smooth inertia \u2014 works on touch screens too. Place pins anywhere on Earth using Lat/Lon coordinates, each displaying a floating card with name, country, address, and phone number on click. Animated connection arcs link your pins with a smooth fade wave, updating automatically as you add or remove pins.",
+      "price": "$8",
+      "previewUrl": "https://globestudio.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6e31f310-f053-48bf-9d6b-133da4887554"
+    },
+    {
+      "name": "Hero Slider Carousel",
+      "slug": "hero-slider-carousel",
+      "category": "Slider",
+      "description": "Hero Slider Carousel is a hero section for Framer. Split and fullwidth layouts with fade or slide transitions. Ken Burns, text animation and per-slide video included. Circular countdown indicators and touch swipe. Perfect for e-commerce stores and brands.",
+      "price": "$8",
+      "previewUrl": "https://heroslidercarousel.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/3ec97292-bbd2-4b65-83e7-f301a80d4f20"
+    },
+    {
+      "name": "Hotspot Showcase",
+      "slug": "hotspot-showcase",
+      "category": "E-commerce",
+      "description": "HotspotShowcase is an interactive shoppable image component for Framer. Place clickable hotspot dots anywhere on a lifestyle photo and let visitors explore each product through an animated side panel \u2014 without ever leaving the page.",
+      "price": "$12",
+      "previewUrl": "https://hotspotshowcase.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/af7a66b3-4f3a-4151-bfd1-f5a7729ba869"
+    },
+    {
+      "name": "Infinite Marquee Pro",
+      "slug": "infinite-marquee-pro",
+      "category": "Ticker",
+      "description": "Infinite Marquee is a smooth, endlessly looping marquee component for Framer that brings motion and energy to any website. Display logos, brands, testimonials, announcements, text, images, or custom content with a seamless infinite scrolling animation. Built with performance in mind, it creates a continuous loop without visible jumps or gaps, ensuring a premium user experience across desktop, tablet, and mobile devices. Whether you're showcasing trusted clients, featured products, partner logos, or promotional messages, Infinite Marquee helps create visually engaging sections that keep your website feeling dynamic and alive. The component is fully responsive, highly customizable, and works instantly without any coding or complex setup.",
+      "price": "$8",
+      "previewUrl": "https://infinitemarqueepro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/5e46a6f5-9edc-4fbf-8c01-77a95f86c58b"
+    },
+    {
+      "name": "Ticker Marquee",
+      "slug": "ticker-marquee",
+      "category": "Ticker",
+      "description": "TickerMarquee is a premium animated marquee component for Framer featuring two diagonally intersecting, infinite-scroll text strips. As visitors scroll your page, the arrow icons dynamically flip direction \u2014 creating a scroll-aware motion effect that feels alive and intentional. Designed for agencies, portfolios and brand websites that demand motion with purpose. Built with the Web Animations API for smooth, jank-free performance \u2014 no CSS injection, no external dependencies. Three handcrafted color presets (Cream, Blush and Sand) get you started instantly, or define fully custom colors for each strip independently. Adjust font family, font stretch, text size, gap, repeat count and diagonal angle to match any brand identity. The built-in Demo Mode panel lets you preview speed, angle, vertical spacing and theme live \u2014 without opening the property panel. The panel scales responsively so it never overflows on smaller screens. Enable the optional edge fade for a soft gradient dissolve on both sides, perfect for full-bleed layouts.",
+      "price": "$8",
+      "previewUrl": "https://tickermarquee.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/32c50fd5-955e-4216-8ef7-01fb43d41116"
+    },
+    {
+      "name": "iPhone Reel Mockup",
+      "slug": "iphone-reel-mockup",
+      "category": "Device",
+      "description": "iPhone Reel Mockup for Framer is a component that wraps your videos and images inside a photorealistic, CSS-drawn iPhone 17 Pro Max frame \u2014 no image assets required. Upload up to 3 videos and 2 images directly from the property panel, then define a custom playback order (e.g. V1, I1, V2, I2, V3) for precise sequencing. Features include smooth 3D mouse-tilt with spring physics, dynamic screen glare reacting to motion, per-media progress bar, slide and fade transitions, and ambient glow with adjustable color and intensity. Videos loop seamlessly; images auto-advance after a configurable duration. Built-in Demo Mode adds a floating control panel below the phone for live adjustments of size, frame style, and transitions. Perfect for client presentations, portfolio sites, and app showcases.",
+      "price": "$6",
+      "previewUrl": "https://iphonereelmockup.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/04a0bcf9-7471-439d-97cd-ac2aac816000"
+    },
+    {
+      "name": "Social Media Mockup",
+      "slug": "social-media-mockup",
+      "category": "Device",
+      "description": "iPhone Social Media Mockup brings your TikTok and Instagram content into Framer inside a photorealistic iPhone frame, complete with 3D tilt interaction, smooth media playback, and floating analytics cards. Built for landing pages, agency portfolios, and product showcases where communicating social media presence needs to feel as polished as the content itself.",
+      "price": "$9",
+      "previewUrl": "https://socialmediamockup.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/1438f69b-9e74-4106-9ae2-f21e1aa713a6"
+    },
+    {
+      "name": "Social Simulator",
+      "slug": "social-simulator",
+      "category": "Device",
+      "description": "Social Simulator is an interactive social media post mockup for Framer. Instantly preview realistic Instagram, X, TikTok, and LinkedIn posts with live like, comment, and bookmark interactions \u2014 all in one component. Fully customizable with property controls and a built-in platform switcher. Perfect for portfolios, presentations, and social proof sections.",
+      "price": "$6",
+      "previewUrl": "https://socialsimulator.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/467ea908-f028-4ceb-88f2-119043ac48bf"
+    },
+    {
+      "name": "Story Player",
+      "slug": "story-player",
+      "category": "Device",
+      "description": "Story Player is an Instagram-style story player component for Framer with smooth progress bar animation, tap navigation, and auto-play support. Add up to three videos or images that play sequentially \u2014 bringing native social media story interactions to any Framer website or landing page. Each story slot supports both video and image content. Videos play automatically at their natural duration while images use a customizable timer. Tap left to go back, tap right to skip forward, hold to pause \u2014 exactly how your users already expect stories to work. Hover to reveal navigation arrows.",
+      "price": "$6",
+      "previewUrl": "https://usestoryplayer.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/90cf4cbc-0121-4bdc-be61-9546c8ee9f07"
+    },
+    {
+      "name": "Marquee Hero Section",
+      "slug": "marquee-hero-section",
+      "category": "Hero",
+      "description": "MarqueeHero is a two-row infinite photo marquee hero section for Framer. Rows scroll in opposite directions with soft faded edges, and every photo reveals a name and role on hover. Pair it with a badge, heading, subheading and CTA button for a complete, theme-aware social proof section that works out of the box.",
+      "price": "$9",
+      "previewUrl": "https://marqueehero.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/de788c06-cc6c-4466-9ad8-4b2835448815"
+    },
+    {
+      "name": "Video Scroll",
+      "slug": "video-scroll",
+      "category": "Hero",
+      "description": "Video Scroll turns any sequence of video clips into an immersive, scroll-driven story. As visitors scroll, each clip crossfades in while pinned full-screen, with synchronized title and description text that animates in word-by-word \u2014 the same scrollytelling effect used by Apple, Stripe, and top product sites. Drop in your own video clips (or use the built-in placeholders) and customize text position, overlay opacity, progress dots, a vertical progress bar, and an ambient slide-number background \u2014 all from the Framer property panel, with zero code required. Every layer is fully responsive across desktop, tablet, and mobile. Built for performance: video playback is automatically disabled while editing on the canvas and during thumbnail or image exports, so your project stays fast and your published site only loads media when it's actually visible to visitors.",
+      "price": "$12",
+      "previewUrl": "https://videoscroll.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/cd479ca6-dbd4-467d-8d31-3095fe09e857"
+    },
+    {
+      "name": "Morph Text Pro",
+      "slug": "morph-text-pro",
+      "category": "Typography",
+      "description": "MorphTextPro is an animated SVG text distortion component for Framer. Text morphs continuously through 5 unique presets with mouse-reactive warping, click bursts and per-letter expansion. Works out of the box with full property controls.",
+      "price": "$6",
+      "previewUrl": "https://morphtextpro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/bb19fd87-2224-4280-811d-a0778a0a5f40"
+    },
+    {
+      "name": "Particle Text Pro FX",
+      "slug": "particle-text-pro-fx",
+      "category": "Typography",
+      "description": "Particle Text Pro FX is an interactive canvas text component for Framer. Move your cursor over the text to scatter particles and watch them spring back into shape. Includes 4 interaction modes, 3 intro styles and a live demo panel. Perfect for hero sections, agency sites and portfolio pages.",
+      "price": "$8",
+      "previewUrl": "https://particletextprofx.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/bcb1ae9f-10c2-4f10-ab58-fe298acc40e9"
+    },
+    {
+      "name": "Text Scramble Pro",
+      "slug": "text-scramble-pro",
+      "category": "Typography",
+      "description": "TextScramblePro is a futuristic text scramble animation component for Framer. Characters reveal one by one in a Matrix-inspired glitch style, with scroll trigger, scramble-out transitions and 3 reveal modes. Perfect for hero sections, intros, portfolios and tech-themed websites.",
+      "price": "$8",
+      "previewUrl": "https://textscramblepro.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/6027628d-8c78-4d29-ae5c-c168b1939181"
+    },
+    {
+      "name": "Tilt Text",
+      "slug": "tilt-text",
+      "category": "Typography",
+      "description": "Tilt Text FX is an interactive 3D text component for Framer. Headlines tilt and scale in real time as the cursor (or finger) moves, with adjustable perspective depth and optional gradient color fills. Lightweight, GPU-friendly and fully responsive with touch support. Perfect for hero sections, portfolios and landing pages.",
+      "price": "Free",
+      "previewUrl": "https://tilttext.framer.website/",
+      "buyUrl": "https://ahmetloca.lemonsqueezy.com/checkout/buy/99726af5-6371-4e33-99f4-46160eb43d8b"
     }
   ]
 }

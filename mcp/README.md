@@ -4,12 +4,15 @@ An MCP (Model Context Protocol) server exposing the [Frameze](https://frameze.co
 
 It doesn't bundle any component data itself: every call fetches live from `raw.githubusercontent.com/AhmetLoca/frameze-components`, so it always reflects whatever is currently in the [registry](../registry/registry.json) — no redeploy needed when a new component is added.
 
+The registry covers the full Frameze catalog — every category (Hero, Gallery, Testimonial, Pricing, Forms, and 25+ more), not just a couple of demo items. Only `animated-stats` and `particle-text-pro` have real open-source `.tsx` code checked in; every other entry is searchable metadata (description, category, price, preview and buy links) pointing back to the live marketplace, since the rest is paid, licensed component code.
+
 ## Tools
 
 | Tool | Description |
 |---|---|
-| `search_components(query)` | Free-text search across name, category, description, and "when to use" guidance. Returns a summary per match. |
-| `get_component_code(slug)` | Returns the full real `.tsx` source for a component, plus its prop table. |
+| `search_components(query, category?)` | Free-text search across the whole catalog — name, category, description. Optional exact `category` filter. Returns price, links, and whether source is available per match. |
+| `get_component_code(slug)` | Returns real `.tsx` source for the open-source demo components; for everything else, returns the description plus preview/buy links instead. |
+| `list_categories()` | Lists every category in the catalog with item counts. |
 | `list_design_tokens()` | Returns the paper/ink/glass theme system (colors + motion easing) used across Frameze components. |
 
 ## Install

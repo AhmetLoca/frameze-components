@@ -1,8 +1,8 @@
 # Frameze Components
 
-Open-source, machine-readable registry of [Frameze](https://frameze.com)'s Framer components — real, working `.tsx` source, not stubs or snippets.
+Machine-readable registry of [Frameze](https://frameze.com)'s full Framer component catalog — every category, searchable by name, category, and description, with price and buy links for each item. A couple of components (`animated-stats`, `particle-text-pro`) are included as real, working open-source `.tsx` demos; the rest of the catalog is paid, licensed component code, so the registry points to it rather than including it.
 
-This repo exists so both people **and AI coding agents** (Claude Code, Cursor, v0, Claude Desktop via MCP, etc.) can find, evaluate, and drop in a Frameze component without going through the marketplace UI. The marketplace at frameze.com is the storefront; this repo is the actual source.
+This repo exists so both people **and AI coding agents** (Claude Code, Cursor, v0, Claude Desktop via MCP, etc.) can discover and evaluate a Frameze component — across the whole catalog, not just the open demos — without going through the marketplace UI. The marketplace at frameze.com is the storefront; this repo is the discovery layer.
 
 ## Structure
 
@@ -30,12 +30,14 @@ Every component is self-contained: copy the `.tsx` file into a Framer Code Compo
 
 ## Current components
 
+The registry currently covers **119 components across 29 categories** — Hero, Gallery, Testimonial, Pricing, Forms, Card, Carousels, and more. Two have real open-source code checked into this repo:
+
 | Component | Category | Description |
 |---|---|---|
 | [AnimatedStats](components/animated-stats) | Data | Count-up stat row with staggered entrance animations |
 | [ParticleTextProFX](components/particle-text-pro) | Typography | Cursor-reactive canvas particle text effect |
 
-More get added over time — see `registry/registry.json` for the live list.
+Every other entry in `registry/registry.json` is metadata only — description, price, preview and buy links back to frameze.com. See `registry/registry.json` for the full, current list, or use the MCP server's `search_components` / `list_categories` tools to query it.
 
 ## Adding a new component
 
@@ -48,7 +50,8 @@ More get added over time — see `registry/registry.json` for the live list.
 ## Roadmap
 
 - [x] Open component registry (this repo)
-- [x] [MCP server](mcp) exposing `search_components`, `get_component_code`, `list_design_tokens` for direct agent integration
+- [x] [MCP server](mcp) exposing `search_components`, `get_component_code`, `list_categories`, `list_design_tokens` for direct agent integration
+- [x] Registry expanded to the full catalog (119 components, 29 categories), not just the open-source demos
 - [x] Published as [`frameze-mcp`](https://www.npmjs.com/package/frameze-mcp) on npm — installable via `npx frameze-mcp`
 - [ ] npm package for the growing React/Next.js ports
 - [ ] `frameze.com/registry/*.json` endpoints mirroring this repo for agents that fetch over HTTP instead of cloning
